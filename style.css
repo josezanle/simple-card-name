@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'ubuntu';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, black 50%, white 50%);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 200px;
+    height: 300px;
+    background: whitesmoke;
+    box-shadow: .5em .5em 1em rgb(0, 0, 0, .5);
+}
+
+h1 {
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px 14px;
+}
+
+h5 {
+    background: black;
+    padding: 3px 2em;
+    color: white;
+    margin-top: .5em;
+    font-size: .6em;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+i {
+    font-size: 2em;
+    margin-bottom: .5em;
+    color: black;
+}
